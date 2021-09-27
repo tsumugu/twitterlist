@@ -6,7 +6,7 @@ import router from './router'
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
 import { initializeApp } from "firebase/app"
-const firebaseConfig = require("./secret/firebase-config.json")
+const firebaseConfig = require("./assets/firebase-config.json")
 initializeApp(firebaseConfig)
 
 Vue.config.productionTip = false
